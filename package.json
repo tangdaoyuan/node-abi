@@ -1,6 +1,6 @@
 {
   "name": "@suger-tdy/node-abi",
-  "version": "0.0.1-development.0",
+  "version": "0.0.1",
   "description": "Get the Node ABI for a given target and runtime, and vice versa.",
   "main": "index.js",
   "scripts": {
