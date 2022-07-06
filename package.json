@@ -31,7 +31,8 @@
   "files": [
     "bin",
     "index.js",
-    "cli.js"
+    "cli.js",
+    "abi_registry.json"
   ],
   "devDependencies": {
     "@types/yargs": "^17.0.10",
