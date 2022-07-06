@@ -25,13 +25,24 @@
     "url": "https://github.com/lgeiger/node-abi/issues"
   },
   "homepage": "https://github.com/lgeiger/node-abi#readme",
+  "bin": {
+    "node-abi": "./bin/node-abi.js"
+  },
+  "files": [
+    "bin",
+    "index.js",
+    "cli.js"
+  ],
   "devDependencies": {
     "@continuous-auth/semantic-release-npm": "^2.0.0",
+    "@types/yargs": "^17.0.10",
     "got": "^11.8.2",
     "tape": "^5.3.1"
   },
   "dependencies": {
-    "semver": "^7.3.5"
+    "picocolors": "^1.0.0",
+    "semver": "^7.3.5",
+    "yargs": "^17.5.1"
   },
   "engines": {
     "node": ">=10"
