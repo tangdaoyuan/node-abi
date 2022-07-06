@@ -1,5 +1,5 @@
 {
-  "name": "node-abi",
+  "name": "@suger-tdy/node-abi",
   "version": "0.0.1-development.0",
   "description": "Get the Node ABI for a given target and runtime, and vice versa.",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lgeiger/node-abi.git"
+    "url": "https://github.com/tangdaoyuan/node-abi.git"
   },
   "keywords": [
     "node",
@@ -22,9 +22,9 @@
   "author": "Lukas Geiger",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lgeiger/node-abi/issues"
+    "url": "https://github.com/tangdaoyuan/node-abi/issues"
   },
-  "homepage": "https://github.com/lgeiger/node-abi#readme",
+  "homepage": "https://github.com/tangdaoyuan/node-abi#readme",
   "bin": {
     "node-abi": "./bin/node-abi.js"
   },
