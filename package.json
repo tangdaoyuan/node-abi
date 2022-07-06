@@ -4,9 +4,9 @@
   "description": "Get the Node ABI for a given target and runtime, and vice versa.",
   "main": "index.js",
   "scripts": {
-    "semantic-release": "semantic-release",
     "test": "tape test/index.js",
-    "update-abi-registry": "node --unhandled-rejections=strict scripts/update-abi-registry.js"
+    "update-abi-registry": "node --unhandled-rejections=strict scripts/update-abi-registry.js",
+    "release": "bumpp --tag --commit --push && pnpm publish"
   },
   "repository": {
     "type": "git",
@@ -34,8 +34,8 @@
     "cli.js"
   ],
   "devDependencies": {
-    "@continuous-auth/semantic-release-npm": "^2.0.0",
     "@types/yargs": "^17.0.10",
+    "bumpp": "^8.2.1",
     "got": "^11.8.2",
     "tape": "^5.3.1"
   },
