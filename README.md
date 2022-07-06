@@ -6,11 +6,18 @@
 Get the Node ABI for a given target and runtime, and vice versa.
 
 ## Installation
-```
-npm install node-abi
+```bash
+npm install @suger-tdy/node-abi -g
 ```
 
 ## Usage
+```bash
+node-abi --mode target --semver 16.14.2 --runtime node
+
+#93
+```
+
+## Programtic Usage
 ```javascript
 const nodeAbi = require('node-abi')
 
